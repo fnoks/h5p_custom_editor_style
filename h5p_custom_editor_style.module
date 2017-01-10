@@ -1,0 +1,12 @@
+<?php
+
+function h5p_custom_editor_style_h5p_styles_alter(&$styles, $libraries, $mode) {
+  if ($mode == 'editor') {
+    $styles[] = (object) array(
+      // Path relative to drupal root
+      'path' => drupal_get_path('module', 'h5p_custom_editor_style') . '/override-importance-high.css',
+      // Cache buster
+      'version' => '?ver=2',
+    );
+  }
+}

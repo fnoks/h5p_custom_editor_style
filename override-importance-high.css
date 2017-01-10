@@ -1,0 +1,30 @@
+/* List item title bar & Group title bar */
+.h5p-li > .list-item-title-bar.importance-high,
+.group.importance-high > .title {
+  background: #C62828;
+  border-color: #B71C1C;
+}
+/* List order buttons */
+.h5p-li > .list-item-title-bar.importance-high .order-group {
+  background-color: #B71C1C;
+}
+.h5p-li > .list-item-title-bar.importance-high .order-group > *:hover {
+  background-color: #880E4F;
+}
+/* Field labels */
+.field.importance-high > .h5peditor-label {
+  color: #C62828;
+}
+/* Buttons */
+.h5peditor-button.importance-high,
+.h5p-vtab-wrapper .h5peditor-button.add-entity {
+  background: #C62828;
+  background-image: linear-gradient(#E53935 50%, transparent 50%, transparent) !important;
+  border-color: #B71C1C;
+}
+.h5peditor-button.importance-high:hover,
+.h5p-vtab-wrapper .h5peditor-button.add-entity:hover {
+  background: #E53935 !important;
+  background-image: linear-gradient(#E53935 50%, transparent 100%, transparent) !important;
+  border-color: #B71C1C !important;
+}
